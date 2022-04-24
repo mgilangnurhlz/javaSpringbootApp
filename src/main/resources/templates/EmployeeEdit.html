@@ -1,0 +1,51 @@
+<html xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <title>Register</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-sm bg-light">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link"
+                                    th:href="@{/employee/}">Data</a></li>
+            <li class="nav-item"><a class="nav-link"
+                                    th:href="@{/employee/show}">Daftar</a></li>
+        </ul>
+    </nav>
+    <div class="card">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>Edit Data Pegawai</h2>
+        </div>
+        <div class="card-body">
+            <form method="post" th:action="@{/employee/update}"
+                  th:object="${emp}">
+                Id : <input type="text" th:field="*{empId}" class="form-control" readonly>
+                Nama Lengkap : <input type="text" th:field="*{empName}" class="form-control">
+                Jenis Kelamin : <input
+                    type="radio" value="Pria" th:field="*{empGen}">Pria <input
+                    type="radio" value="Wanita" th:field="*{empGen}">Wanita<br>
+                Email: <input type="text" th:field="*{email}" class="form-control">
+                Posisi : <select class="form-control" th:field="*{empDept}">
+                <option value="">-select-</option>
+                <option value="Software Developer">Software Developer</option>
+                <option value="Web Developer">Web Developer</option>
+                <option value="Database Administrator">Database Administrator</option>
+                <option value="Hardware Engineer">Hardware Engineer</option>
+                <option value="Information Security Analyst">Information Security Analyst</option>
+                <option value="IT Support">IT Support</option>
+                <option value="System Manager">System Manager</option>
+
+            </select> Tanggal Lahir : <input type="date" th:field="*{empDoj}" class="form-control" />
+                Alamat : <input type="text" th:field="*{adress}" class="form-control">
+                <input type="submit" value="Submit"
+                       class="btn btn-outline-success">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
