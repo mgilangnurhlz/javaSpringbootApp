@@ -1,6 +1,10 @@
 # UTS-Kelompok6
 Dibuat oleh Muhammad Gilang Nur Haliz(1207050074) dan Munazir Dzuana Setiawan(1207050085)
+
+
 Link Heroku : https://uts-kelompok6.herokuapp.com/forgot-password
+
+
 ![Screenshot (1517)](https://user-images.githubusercontent.com/100754364/165128343-80c14c4e-e9a5-45aa-a932-84fb23ab7d5c.png)
 ![Screenshot (1518)](https://user-images.githubusercontent.com/100754364/165128380-54332362-c1e1-455b-8f18-25b09f010bd6.png)
 ![Screenshot (1519)](https://user-images.githubusercontent.com/100754364/165128387-e64ec951-538a-4581-ba2b-9111186c8ec9.png)
