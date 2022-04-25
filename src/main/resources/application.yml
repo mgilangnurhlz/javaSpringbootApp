@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/password_reset
     username: postgres
-    password: munazir
+    password: nurhaliz
   jpa:
     hibernate:
       ddl-auto: update
@@ -17,8 +17,8 @@ spring:
   mail:
     default-encoding: UTF-8
     host: smtp.gmail.com
-    username: username
-    password: password
+    username: mgilangnurhaliz@gmail.com
+    password: pqoxhpdozkdcapjw
     port: 587
     properties:
       mail:
