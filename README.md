@@ -2,7 +2,7 @@
 Dibuat oleh Muhammad Gilang Nur Haliz(1207050074) dan Munazir Dzuana Setiawan(1207050085)
 
 
-Link Heroku : https://uts-kelompok6.herokuapp.com/forgot-password
+Link Heroku : https://uts-kelompok6.herokuapp.com/signup
 
 
 ![Screenshot (1517)](https://user-images.githubusercontent.com/100754364/165128343-80c14c4e-e9a5-45aa-a932-84fb23ab7d5c.png)
